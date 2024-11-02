@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main(){
-  printf("Hello World!");
+  int x;
+  scanf("%d", &x);
+  printf("Hello World! x = %d", x);
   return 0;
 }
