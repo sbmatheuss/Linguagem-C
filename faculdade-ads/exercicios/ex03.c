@@ -9,5 +9,5 @@ int main() {
   //scanf("%d, &x");
   printf("constante = %d", x);
 
-  return
+  return 0;
 }
