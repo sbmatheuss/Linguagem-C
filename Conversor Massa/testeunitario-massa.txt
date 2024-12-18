@@ -1,0 +1,61 @@
+# Testes de Conversão de Unidades de Massa
+
+# Teste 1: Conversão de Quilograma (kg) para Grama (g)
+Entrada: kg = 1
+Função: kgToGram(1)
+Resultado Esperado: 1000
+Comentário: 1 kg deve ser igual a 1000 g
+
+# Teste 2: Conversão de Quilograma (kg) para Tonelada (t)
+Entrada: kg = 1000
+Função: kgToTonelada(1000)
+Resultado Esperado: 1
+Comentário: 1000 kg deve ser igual a 1 tonelada
+
+# Teste 3: Conversão de Grama (g) para Quilograma (kg)
+Entrada: gram = 1000
+Função: gramToKg(1000)
+Resultado Esperado: 1
+Comentário: 1000 g deve ser igual a 1 kg
+
+# Teste 4: Conversão de Grama (g) para Tonelada (t)
+Entrada: gram = 1000000
+Função: gramToTonelada(1000000)
+Resultado Esperado: 1
+Comentário: 1.000.000 g deve ser igual a 1 tonelada
+
+# Teste 5: Conversão de Tonelada (t) para Quilograma (kg)
+Entrada: tonelada = 1
+Função: toneladaToKg(1)
+Resultado Esperado: 1000
+Comentário: 1 tonelada deve ser igual a 1000 kg
+
+# Teste 6: Conversão de Tonelada (t) para Grama (g)
+Entrada: tonelada = 1
+Função: toneladaToGram(1)
+Resultado Esperado: 1000000
+Comentário: 1 tonelada deve ser igual a 1.000.000 g
+
+# Teste 7: Conversão de Quilograma (kg) para Grama (g) - Teste com valor decimal
+Entrada: kg = 2.5
+Função: kgToGram(2.5)
+Resultado Esperado: 2500
+Comentário: 2.5 kg deve ser igual a 2500 g
+
+# Teste 8: Conversão de Quilograma (kg) para Tonelada (t) - Teste com valor decimal
+Entrada: kg = 500
+Função: kgToTonelada(500)
+Resultado Esperado: 0.5
+Comentário: 500 kg deve ser igual a 0.5 tonelada
+
+# Teste 9: Conversão de Grama (g) para Quilograma (kg) - Teste com valor decimal
+Entrada: gram = 500
+Função: gramToKg(500)
+Resultado Esperado: 0.5
+Comentário: 500 g deve ser igual a 0.5 kg
+
+# Teste 10: Conversão de Grama (g) para Tonelada (t) - Teste com valor decimal
+Entrada: gram = 500000
+Função: gramToTonelada(500000)
+Resultado Esperado: 0.5
+Comentário: 500.000 g deve ser igual a 0.5 tonelada
